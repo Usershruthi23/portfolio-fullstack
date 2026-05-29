@@ -1,0 +1,184 @@
+# Full Stack Portfolio Website
+
+## 📌 Project Overview
+
+This is a Full Stack Personal Portfolio Website developed to showcase my skills, projects, certifications, and experience as a Frontend Developer and Computer Science student.
+
+The project integrates both frontend and backend technologies along with a MongoDB database for handling contact form submissions.
+
+# 🚀 Live Project
+
+## Frontend
+
+https://usershruthi23.github.io/portfolio/
+
+# 🛠️ Technologies Used
+
+## Frontend
+
+* HTML5
+* CSS3
+* JavaScript
+* Bootstrap Icons
+* Responsive Design
+
+## Backend
+
+* Node.js
+* Express.js
+
+## Database
+
+* MongoDB Atlas
+* Mongoose
+
+## Deployment
+
+* GitHub Pages (Frontend)
+* Render (Backend)
+
+# ✨ Features
+
+* Responsive Portfolio Website
+* Mobile Friendly Navigation
+* Hero Section with Typing Effect
+* About Section
+* Skills Section
+* Projects Showcase
+* Internship Experience Section
+* Certifications Section
+* Contact Form Validation
+* Backend API Integration
+* MongoDB Database Storage
+* Scroll To Top Button
+* Active Navigation Highlighting
+
+
+# 📂 Project Structure
+
+PORTFOLIO
+│
+├── backend
+│   ├── models
+│   ├── routes
+│   ├── node_modules
+│   ├── .env
+│   ├── package.json
+│   ├── server.js
+│
+├── frontend
+│   ├── assets
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+
+
+# ⚙️ Backend Setup
+
+## 1. Clone Repository
+
+```bash
+git clone https://github.com/Usershruthi23/portfolio.git
+```
+
+## 2. Open Backend Folder
+
+```bash
+cd backend
+```
+
+## 3. Install Dependencies
+
+```bash
+npm install
+```
+
+## 4. Create .env File
+
+```env
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
+```
+
+## 5. Start Server
+
+```bash
+node server.js
+```
+
+# 💻 Frontend Setup
+
+## Open Frontend Folder
+
+```bash
+cd frontend
+```
+
+Run the project using Live Server extension in VS Code.
+
+
+# 📡 API Endpoint
+
+## Contact Form API
+
+```bash
+POST /api/contact
+```
+
+### Sample Request
+
+```json
+{
+  "name": "Shruthi",
+  "email": "shruthi@gmail.com",
+  "message": "Hello Backend"
+}
+```
+# 🗄️ Database
+
+All contact form messages are stored in MongoDB Atlas database using Mongoose.
+
+# 📸 Screenshots
+
+Add your project screenshots here.
+
+---
+
+# 🎯 Learning Outcomes
+
+Through this project, I learned:
+
+* Frontend and Backend Integration
+* REST API Development
+* MongoDB Database Connectivity
+* Form Validation
+* Full Stack Project Structure
+* Git and GitHub Workflow
+* Deployment Process
+
+# 👩‍💻 Author
+## Gudise Shruthi
+
+* Frontend Developer
+* B.Tech CSE Student
+* AI & Web Development Enthusiast
+
+
+# 📬 Contact
+* Email: gudiseshruthi23@gmail.com
+* GitHub: https://github.com/Usershruthi23
+* LinkedIn: https://linkedin.com/in/shruthi-gudise-8a7a84320
+
+
+# ⭐ Future Improvements
+
+* Admin Dashboard
+* Authentication System
+* Dynamic Project Management
+* Blog Section
+* Resume Download Analytics
+* Email Notifications
+
+
+# 📄 License
+This project is developed for educational and portfolio purposes.
