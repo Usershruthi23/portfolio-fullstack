@@ -8,9 +8,7 @@ The project integrates both frontend and backend technologies along with a Mongo
 
 # 🚀 Live Project
 
-## Frontend
-
-https://usershruthi23.github.io/portfolio/
+https://usershruthi23.github.io/portfolio-fullstack/
 
 # 🛠️ Technologies Used
 
@@ -78,7 +76,7 @@ PORTFOLIO
 ## 1. Clone Repository
 
 ```bash
-git clone https://github.com/Usershruthi23/portfolio.git
+git clone https://github.com/Usershruthi23/portfolio-fullstack.git
 ```
 
 ## 2. Open Backend Folder
@@ -106,14 +104,6 @@ PORT=5000
 node server.js
 ```
 
-# 💻 Frontend Setup
-
-## Open Frontend Folder
-
-```bash
-cd frontend
-```
-
 Run the project using Live Server extension in VS Code.
 
 
@@ -137,12 +127,6 @@ POST /api/contact
 # 🗄️ Database
 
 All contact form messages are stored in MongoDB Atlas database using Mongoose.
-
-# 📸 Screenshots
-
-Add your project screenshots here.
-
----
 
 # 🎯 Learning Outcomes
 
