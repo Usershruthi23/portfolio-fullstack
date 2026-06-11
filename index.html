@@ -403,36 +403,13 @@
     <h2>
       Contact Me
     </h2>
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="4616726a-67c6-4911-bf78-cb506922a47c">
 
-    <form id="contact-form">
-
-      <input
-        type="text"
-        id="name"
-        name="name"
-        placeholder="Your Name"
-        required
-      >
-
-      <input
-        type="email"
-        id="email"
-        name="email"
-        placeholder="Your Email"
-        required
-      >
-
-      <textarea
-        id="message"
-        name="message"
-        placeholder="Your Message"
-        required
-      ></textarea>
-
-      <button type="submit">
-        Send Message
-      </button>
-
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
     </form>
 
     <br><br>
